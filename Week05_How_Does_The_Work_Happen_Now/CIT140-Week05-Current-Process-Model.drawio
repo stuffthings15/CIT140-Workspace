@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="Current Process Model" id="page1">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Cedar Junction &#8212; Current Appointment Process (as-is)" style="text;html=1;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="900" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Sources: W05-S01 Scheduling, W05-S02 Clinical Operations, W05-S03 Intake, W05-S04 incident trace. Current work only; no proposed changes." style="text;html=1;fontSize=13;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="58" width="1400" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pool" value="Cedar Junction appointment process" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;swimlaneFillColor=none;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="3160" height="880" as="geometry" />
+        </mxCell>
+
+        <mxCell id="laneV" value="Visitor" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="0" width="3120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="laneS" value="Scheduling" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="130" width="3120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="laneC" value="Clinical Operations" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="370" width="3120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="laneI" value="Intake" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="610" width="3120" height="270" as="geometry" />
+        </mxCell>
+
+        <mxCell id="start" value="Start&#10;Visitor requests an appointment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="laneV">
+          <mxGeometry x="70" y="35" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrive" value="Visitor arrives at the clinic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="laneV">
+          <mxGeometry x="1680" y="35" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="endok" value="End&#10;Visitor continues with the next staff team" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="laneV">
+          <mxGeometry x="2820" y="30" width="190" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s1" value="Record requested slot and support preferences&#10;(W05-S01)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneS">
+          <mxGeometry x="280" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="Booking details complete?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneS">
+          <mxGeometry x="510" y="20" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="Contact the visitor and review the revised request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneS">
+          <mxGeometry x="510" y="150" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="Request the clinical readiness decision" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneS">
+          <mxGeometry x="740" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="Issue booking confirmation&#10;(observed in W05-S04)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="laneS">
+          <mxGeometry x="970" y="150" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" value="Arrange another slot with the visitor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneS">
+          <mxGeometry x="1450" y="150" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c1" value="Receive the scheduling request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneC">
+          <mxGeometry x="970" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Check room and clinician availability&#10;(W05-S02, rule W04-S02)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneC">
+          <mxGeometry x="1200" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="Room and clinician available?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneC">
+          <mxGeometry x="1430" y="20" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Record readiness for the appointment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneC">
+          <mxGeometry x="1680" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="Retain held status and review capacity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneC">
+          <mxGeometry x="1430" y="150" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="i1" value="Locate the appointment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneI">
+          <mxGeometry x="1930" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" value="Check the readiness status&#10;(W05-S03)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneI">
+          <mxGeometry x="2160" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" value="Status ready or held?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneI">
+          <mxGeometry x="2390" y="20" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" value="Confirm support arrangements&#10;(W04-S03 preferences)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneI">
+          <mxGeometry x="2620" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i4" value="Open exception review with Scheduling and Clinical Operations&#10;(W05-S03, W05-S04)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="laneI">
+          <mxGeometry x="2390" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="start" target="s1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="s1" target="d1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d1" target="s2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" value="revised request" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s2" target="d1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d1" target="s3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="s3" target="c1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="c1" target="c2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="c2" target="d2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d2" target="c3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e10" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d2" target="c4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e11" value="another slot needed" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="c4" target="s5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e12" value="revised slot" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s5" target="c2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="arrive" target="i1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="i1" target="i2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="i2" target="d3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e16" value="Ready" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d3" target="i3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e17" value="Held" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#b85450;" edge="1" parent="1" source="d3" target="i4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e18" value="clarified status reaches Intake" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;strokeColor=#b85450;" edge="1" parent="1" source="i4" target="i2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e19" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="i3" target="endok"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e20" value="confirmation to visitor" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s4" target="arrive"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e21" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="s3" target="s4"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="note1" value="HANDOFF GAP (W05-S04)&#10;In the incident trace a booking confirmation was issued while the slot was still held, and no completed readiness decision reaches Intake before arrival. A booking message records the requested time; it is not the clinical readiness record (W05-S01)." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="1000" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="TERMINOLOGY (W04-S01)&#10;Scheduling 'held' = slot awaiting final confirmation.&#10;Intake 'held' = visitor has arrived but cannot proceed.&#10;One label, two conditions." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1000" width="380" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Scope and Findings" id="page2">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="20" />
+        <mxCell id="21" parent="20" />
+
+        <mxCell id="h1" value="Scope and Findings &#8212; Cedar Junction current appointment process" style="text;html=1;fontSize=17;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="21">
+          <mxGeometry x="40" y="30" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" value="Curtis Loop &#183; CIT 140 Week 5 &#183; Current-state process model" style="text;html=1;fontSize=11;fontColor=#555555;align=left;" vertex="1" parent="21">
+          <mxGeometry x="40" y="60" width="780" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b1" value="1. Process definition&#10;&#10;Purpose: to show how Cedar Junction currently moves a visitor's appointment from request to arrival, so the team can see where the handoff between Scheduling, Clinical Operations and Intake becomes unclear.&#10;&#10;Start: a visitor requests an appointment (W05-S01).&#10;End: the visitor proceeds to the next staff team after Intake confirms support arrangements (W05-S03).&#10;&#10;Roles included: Visitor, Scheduling, Clinical Operations, Intake.&#10;Not included: billing, clinical care delivery, and any proposed system change." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="21">
+          <mxGeometry x="40" y="100" width="780" height="190" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b2" value="2. Source IDs used&#10;&#10;W05-S01  Scheduling work note &#183; request, support preferences, completeness decision, readiness request&#10;W05-S02  Clinical Operations readiness checklist &#183; room and clinician availability, held status, capacity review&#10;W05-S03  Intake observation &#183; locate appointment, check readiness, ready and held paths, exception review&#10;W05-S04  Incident trace &#183; the recorded sequence for the affected appointment&#10;Carried forward: W04-S01 (held terminology), W04-S02 (same-day capacity rule), W04-S03 (support preferences), W04-S04 (minimum access and audit)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="21">
+          <mxGeometry x="40" y="305" width="780" height="165" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b3" value="3. Two appointment paths&#10;&#10;Normal path: request recorded with support preferences, details checked for completeness, readiness requested, room and clinician checked, readiness recorded, visitor arrives, Intake finds the appointment ready, support arrangements confirmed, visitor continues to the next staff team.&#10;&#10;Incident path (W05-S04): booking request recorded, held slot recorded, booking confirmation issued, visitor arrives, Intake displays held, Dana Ruiz opens exception review.&#10;&#10;The gap: the two paths separate between the readiness decision and arrival. In the incident path a booking confirmation was issued while the slot was still held, so the visitor arrived holding a confirmation while Intake saw an appointment that could not proceed. W05-S01 states that a booking message records the requested time and is not the clinical readiness record, so the confirmation never carried readiness. W04-S01 compounds the effect: Scheduling's held means a slot awaiting final confirmation, Intake's held means an arrived visitor who cannot move forward, so one label described two different conditions." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="21">
+          <mxGeometry x="40" y="485" width="780" height="275" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b4" value="4. What the records cannot confirm&#10;&#10;The supplied trace shows no completed readiness decision reaching Intake before arrival. W05-S04 states directly that missing from this trace does not prove an action never happened, so this is recorded as uncertainty and not as a finding of fault.&#10;Open questions: whether a readiness decision was made and not recorded; whether it was recorded but not transmitted to Intake; and what triggered the booking confirmation while the slot was still held. These require the change history described in W04-S04 rather than inference from the diagram." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="21">
+          <mxGeometry x="40" y="775" width="780" height="165" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b5" value="5. Reflection&#10;&#10;Week 4 stated what the system must do. This week shows how the work happens now, and the model makes the handoff visible in a way a requirements list did not: the confirmation and the readiness decision are two separate records that can disagree, and nothing in the current process forces them to agree before the visitor arrives." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="21">
+          <mxGeometry x="40" y="955" width="780" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
