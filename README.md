@@ -19,7 +19,7 @@ Two separate fictional cases run through the course. They are kept apart deliber
 Defines the MR-17 incident without proposing a repair.
 - [CIT140-Week01-Problem-Brief.pdf](Week01_Something_Isnt_Adding_Up/artifact/CIT140-Week01-Problem-Brief.pdf) — the artifact
 - [CIT140-Week01-Meridian-Forge-Evidence-Packet.docx](Week01_Something_Isnt_Adding_Up/evidence/CIT140-Week01-Meridian-Forge-Evidence-Packet.docx) — supplied case evidence
-- Receipt: `CIT140-W01-PROBLEM-MU5XI6GY-3RQRP` — **PDF not saved in this repository**
+- [Week01_Mission_Receipt.pdf](Week01_Something_Isnt_Adding_Up/receipt/Week01_Mission_Receipt.pdf) — receipt `CIT140-W01-PROBLEM-MU5XI6GY-3RQRP`
 
 ### Week 2 — Business Case Recommendation · Meridian Forge
 Recommends revising the proposed QA Control Review rather than proceeding as written.
@@ -70,7 +70,7 @@ Client-facing review of Weeks 1–7.
 
 Recorded here rather than left implicit:
 
-- **Mission receipt PDFs for Weeks 1–4 are not stored in this repository.** The Week 1 receipt code is on record; the Week 2–4 codes were submitted directly in Canvas at the time and the PDFs were not retained here.
+- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files; they could not be recovered from this machine's download history. The Week 1 receipt was recovered and is linked above, and Weeks 5 to 7 are present.
 - **Folder structure is not uniform.** Weeks 1–4 use the folder layout each assignment specified at the time; Weeks 5–7 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas.
 - **Week 4 has no structured JSON export** in the repository; only the PDF artifact was required at submission.
 
