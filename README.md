@@ -26,7 +26,8 @@ Recommends revising the proposed QA Control Review rather than proceeding as wri
 - [CIT140-Week02-Business-Case.pdf](Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case.pdf) — the artifact
 - [CIT140-Week02-Business-Case-r017.json](Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case-r017.json) — structured export, revision 17
 - [Week02_Repository_Check.png](Week02_Is_This_Project_Worth_Doing/Week02_Repository_Check.png) — required repository screenshot
-- Receipt: **not saved in this repository**
+- Receipt: `CIT140-W02-5E584F45EA26` — code recovered from the Canvas submission; **PDF not saved in this repository**
+- Version-specific artifact link submitted at the time: `https://github.com/stuffthings15/CIT140-Workspace/blob/123593122d6fde9fd24996e9735092d5e089c504/Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case.pdf`
 
 ### Week 3 — Stakeholder Map · Meridian Forge
 Maps who is affected, who advises and who can decide, including unnamed roles.
@@ -71,7 +72,7 @@ Client-facing review of Weeks 1–7.
 
 Recorded here rather than left implicit:
 
-- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files; they could not be recovered from this machine's download history. The Week 1 receipt was recovered and is linked above, and Weeks 5 to 7 are present.
+- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files. The Week 1 receipt was recovered as a file and is linked above. The Week 2 receipt code was recovered from the Canvas submission and is recorded above, but its PDF is still missing. The Week 3 and Week 4 codes have not been recovered. Weeks 5 to 8 are complete.
 - **Folder structure is not uniform.** Weeks 1–4 use the folder layout each assignment specified at the time; Weeks 5–7 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas.
 - **Week 4 has no structured JSON export** in the repository; only the PDF artifact was required at submission.
 
