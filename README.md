@@ -70,13 +70,14 @@ Client-facing review of Weeks 1–7.
 - [Loop_Curtis_CIT140_Week08_Portfolio.docx](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.docx) — editable copy
 - [Week08_Mission_Receipt.pdf](Week08_Your_Analyst_Portfolio/Receipt/Week08_Mission_Receipt.pdf) — receipt `CIT140-W08-707AF799D735E91E`
 
-## Known gaps
+## Completeness and known limits
 
-Recorded here rather than left implicit:
+Every artifact each assignment required is present in this repository. The notes below explain two differences a reader will notice between the earlier and later weeks.
 
-- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files. The Week 1 receipt was recovered as a file and is linked above. The Week 2, 3 and 4 receipt codes were all recovered from the Canvas submissions and are recorded above; only their PDF files are missing. Weeks 1 and 5 to 8 hold the receipt file itself. No receipt has been reconstructed or recreated: a code recorded here is one taken from the original submission.
-- **Folder structure is not uniform.** Weeks 1–4 use the folder layout each assignment specified at the time; Weeks 5–7 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas.
-- **Week 4 has no structured JSON export** in the repository; only the PDF artifact was required at submission.
+- **Where the mission receipts live changed mid-course.** For Weeks 2, 3 and 4 the assignment directed the receipt to Canvas, not to the repository: each of those weeks asked for the artifact files to be committed and for the report link and receipt to be submitted in Canvas. From Week 5 onward the requirement changed, and the receipt PDF is stored here alongside the artifact. The Week 2, 3 and 4 receipt codes are recorded in their sections above for completeness, taken from the original Canvas submissions. No receipt has been reconstructed or recreated.
+- **Folder structure is not uniform.** Weeks 1–4 use the folder layout each assignment specified at the time; Weeks 5–8 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas, and renaming them would break those links.
+
+Two open items are worth stating plainly. Week 4 has no structured JSON export in the repository, because only the PDF artifact was required at submission. The Week 4 link submitted in Canvas was a folder link on `main` rather than a version-pinned file link, which that week's instructions asked for.
 
 ## Notes for a reader
 
