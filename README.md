@@ -39,7 +39,8 @@ Maps who is affected, who advises and who can decide, including unnamed roles.
 ### Week 4 — Validated Requirements Set · Cedar Junction
 Eight validated requirements with sources, acceptance checks and named validators.
 - [CIT140-Week04-Validated-Requirements.pdf](Week04_What_Must_The_System_Do/CIT140-Week04-Validated-Requirements.pdf) — the artifact
-- Receipt: **not saved in this repository**
+- Receipt: `CIT140-W04-143CCF33C549` — code recovered from the Canvas submission; **PDF not saved in this repository**
+- Link submitted at the time: `https://github.com/stuffthings15/CIT140-Workspace/tree/main/Week04_What_Must_The_System_Do` (folder on `main`, not a version-pinned file link)
 
 ### Week 5 — As-Is Process Model · Cedar Junction
 Swimlane model of the current clinic appointment process and where the handoff breaks.
@@ -73,7 +74,7 @@ Client-facing review of Weeks 1–7.
 
 Recorded here rather than left implicit:
 
-- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files. The Week 1 receipt was recovered as a file and is linked above. The Week 2 and Week 3 receipt codes were recovered from the Canvas submissions and are recorded above, but their PDFs are still missing. The Week 4 code has not been recovered. Weeks 5 to 8 are complete.
+- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files. The Week 1 receipt was recovered as a file and is linked above. The Week 2, 3 and 4 receipt codes were all recovered from the Canvas submissions and are recorded above; only their PDF files are missing. Weeks 1 and 5 to 8 hold the receipt file itself. No receipt has been reconstructed or recreated: a code recorded here is one taken from the original submission.
 - **Folder structure is not uniform.** Weeks 1–4 use the folder layout each assignment specified at the time; Weeks 5–7 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas.
 - **Week 4 has no structured JSON export** in the repository; only the PDF artifact was required at submission.
 
