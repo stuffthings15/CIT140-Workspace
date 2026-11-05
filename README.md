@@ -63,8 +63,9 @@ Five data-quality rules applied to 20 inspection records, prepared in Power Quer
 
 ### Week 8 — Portfolio Review Packet
 Client-facing review of Weeks 1–7.
-- Week08/Artifact — review packet, PDF and editable copy
-- Week08/Receipt — Week 8 mission receipt
+- [Loop_Curtis_CIT140_Week08_Portfolio.pdf](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.pdf) — the packet, fourteen pages
+- [Loop_Curtis_CIT140_Week08_Portfolio.docx](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.docx) — editable copy
+- [Week08_Mission_Receipt.pdf](Week08_Your_Analyst_Portfolio/Receipt/Week08_Mission_Receipt.pdf) — receipt `CIT140-W08-707AF799D735E91E`
 
 ## Known gaps
 
