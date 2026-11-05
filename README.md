@@ -33,7 +33,8 @@ Recommends revising the proposed QA Control Review rather than proceeding as wri
 Maps who is affected, who advises and who can decide, including unnamed roles.
 - [CIT140-Week03-Stakeholder-Map.pdf](Week03_Who_Has_A_Stake/CIT140-Week03-Stakeholder-Map.pdf) — the artifact
 - [Loop_Curtis_CIT140_Week03_Book_Form.pdf](Week03_Who_Has_A_Stake/Loop_Curtis_CIT140_Week03_Book_Form.pdf) — book form, *Attention First* page 72, prompts 32–33
-- Receipt: **not saved in this repository**
+- Receipt: `CIT140-W03-DCE0D231D457` — code recovered from the Canvas submission; **PDF not saved in this repository**
+- Version-specific artifact link submitted at the time: `https://github.com/stuffthings15/CIT140-Workspace/blob/fda7df6d1e47c80b6070386b4b1f7f18fc81048a/Week03_Who_Has_A_Stake/CIT140-Week03-Stakeholder-Map.pdf`
 
 ### Week 4 — Validated Requirements Set · Cedar Junction
 Eight validated requirements with sources, acceptance checks and named validators.
@@ -72,7 +73,7 @@ Client-facing review of Weeks 1–7.
 
 Recorded here rather than left implicit:
 
-- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files. The Week 1 receipt was recovered as a file and is linked above. The Week 2 receipt code was recovered from the Canvas submission and is recorded above, but its PDF is still missing. The Week 3 and Week 4 codes have not been recovered. Weeks 5 to 8 are complete.
+- **Mission receipt PDFs for Weeks 2, 3 and 4 are not stored in this repository.** Those receipts were generated on the course site at the time of each submission and were not retained as files. The Week 1 receipt was recovered as a file and is linked above. The Week 2 and Week 3 receipt codes were recovered from the Canvas submissions and are recorded above, but their PDFs are still missing. The Week 4 code has not been recovered. Weeks 5 to 8 are complete.
 - **Folder structure is not uniform.** Weeks 1–4 use the folder layout each assignment specified at the time; Weeks 5–7 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas.
 - **Week 4 has no structured JSON export** in the repository; only the PDF artifact was required at submission.
 
