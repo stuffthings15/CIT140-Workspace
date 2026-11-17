@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" type="device">
+
+  <diagram name="1 Future Process" id="p1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" /><mxCell id="1" parent="0" />
+
+        <mxCell id="t1" value="Orison Keep &#8212; Proposed Request Service (future state, Approach B)" style="text;html=1;fontSize=22;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1200" height="30" as="geometry" /></mxCell>
+        <mxCell id="t1b" value="Scenario N01 (complete request) and scenario E01 (missing information, then correction) &#183; sources W09-S01, W09-S02, W09-S03, W09-S04 &#183; proposal, not an implemented service" style="text;html=1;fontSize=12;fontColor=#555555;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="55" width="1600" height="20" as="geometry" /></mxCell>
+
+        <mxCell id="pool" value="Proposed request route" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;swimlaneFillColor=none;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="95" width="3180" height="900" as="geometry" /></mxCell>
+
+        <mxCell id="laneR" value="Requester" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="0" width="3140" height="180" as="geometry" /></mxCell>
+        <mxCell id="laneD" value="Desk clerk" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="180" width="3140" height="320" as="geometry" /></mxCell>
+        <mxCell id="laneU" value="Runner" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="500" width="3140" height="200" as="geometry" /></mxCell>
+        <mxCell id="laneK" value="Destination keeper" style="swimlane;html=1;horizontal=0;startSize=40;fillColor=none;fontStyle=1;" vertex="1" parent="pool">
+          <mxGeometry x="40" y="700" width="3140" height="200" as="geometry" /></mxCell>
+
+        <mxCell id="r1" value="Submit request&#10;(name, contact, reference,&#10;destination, summary)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="laneR">
+          <mxGeometry x="90" y="55" width="180" height="80" as="geometry" /></mxCell>
+        <mxCell id="r2" value="Receive clarification request&#10;with the named missing item" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="laneR">
+          <mxGeometry x="900" y="55" width="190" height="80" as="geometry" /></mxCell>
+        <mxCell id="r3" value="Supply correction&#10;(E01: CK-042, East Records)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="laneR">
+          <mxGeometry x="1170" y="55" width="190" height="80" as="geometry" /></mxCell>
+        <mxCell id="r4" value="Receive status&#10;or clear next action" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="laneR">
+          <mxGeometry x="2840" y="55" width="180" height="80" as="geometry" /></mxCell>
+
+        <mxCell id="d1" value="1. Record request in form&#10;System assigns request ID&#10;(N01: Q-241 / E01: Q-242)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneD">
+          <mxGeometry x="330" y="30" width="200" height="90" as="geometry" /></mxCell>
+        <mxCell id="d2" value="2. System checks required fields&#10;and reference-to-destination&#10;directory (AR-02)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="laneD">
+          <mxGeometry x="580" y="30" width="200" height="90" as="geometry" /></mxCell>
+        <mxCell id="dec1" value="Required fields present&#10;AND reference matches&#10;an active destination?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneD">
+          <mxGeometry x="830" y="20" width="220" height="110" as="geometry" /></mxCell>
+        <mxCell id="d3" value="3a. Set status&#10;AWAITING CLARIFICATION&#10;Record which item failed,&#10;who set it and when (AR-04)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="laneD">
+          <mxGeometry x="900" y="180" width="200" height="110" as="geometry" /></mxCell>
+        <mxCell id="d4" value="4. Record correction as a new&#10;entry in clarification history.&#10;Original values retained,&#10;not overwritten (AR-04)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="laneD">
+          <mxGeometry x="1160" y="180" width="210" height="110" as="geometry" /></mxCell>
+        <mxCell id="d5" value="5. Set status READY&#10;Record clerk identity and time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="laneD">
+          <mxGeometry x="1450" y="30" width="200" height="90" as="geometry" /></mxCell>
+        <mxCell id="d6" value="6. Issue runner view:&#10;request ID, reference,&#10;destination, delivery status.&#10;Contact details withheld (AR-05)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="laneD">
+          <mxGeometry x="1720" y="30" width="220" height="110" as="geometry" /></mxCell>
+        <mxCell id="d7" value="10. Record routing problem&#10;reported by keeper;&#10;return to clarification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="laneD">
+          <mxGeometry x="2480" y="180" width="200" height="100" as="geometry" /></mxCell>
+
+        <mxCell id="u1" value="7. Accept assignment&#10;Status IN DELIVERY&#10;Runner identity and time recorded" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneU">
+          <mxGeometry x="2010" y="50" width="220" height="100" as="geometry" /></mxCell>
+        <mxCell id="u2" value="8. Deliver to the destination&#10;named on the request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laneU">
+          <mxGeometry x="2300" y="50" width="200" height="100" as="geometry" /></mxCell>
+
+        <mxCell id="k1" value="9. Acknowledge receipt&#10;Status RECEIVED&#10;Keeper identity and time (AR-03)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="laneK">
+          <mxGeometry x="2560" y="30" width="220" height="100" as="geometry" /></mxCell>
+        <mxCell id="dec2" value="Routing or information&#10;problem found&#10;on receipt?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="laneK">
+          <mxGeometry x="2300" y="25" width="200" height="110" as="geometry" /></mxCell>
+
+        <mxCell id="e1" value="request submitted" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="r1" target="d1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d1" target="d2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d2" target="dec1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" value="No &#8212; E01" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#b85450;" edge="1" parent="1" source="dec1" target="d3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" value="names the missing item" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#b85450;" edge="1" parent="1" source="d3" target="r2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#b85450;" edge="1" parent="1" source="r2" target="r3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" value="correction supplied" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#9673a6;" edge="1" parent="1" source="r3" target="d4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" value="re-check (AR-02)" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;strokeColor=#9673a6;" edge="1" parent="1" source="d4" target="dec1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1305" y="430" /><mxPoint x="980" y="430" /></Array></mxGeometry></mxCell>
+        <mxCell id="e9" value="Yes &#8212; N01" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#82b366;" edge="1" parent="1" source="dec1" target="d5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d5" target="d6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e11" value="assignment to runner" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="d6" target="u1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="u1" target="u2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e13" value="handoff to keeper" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="u2" target="dec2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e14" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#82b366;" edge="1" parent="1" source="dec2" target="k1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;strokeColor=#b85450;" edge="1" parent="1" source="dec2" target="d7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e16" value="back to clarification" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;strokeColor=#b85450;" edge="1" parent="1" source="d7" target="d3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="2620" y="720" /><mxPoint x="1040" y="720" /></Array></mxGeometry></mxCell>
+        <mxCell id="e17" value="status visible to requester" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;dashed=1;strokeColor=#82b366;" edge="1" parent="1" source="k1" target="r4"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="n1" value="WHAT THE SYSTEM RECORDS AT EVERY STEP (AR-01, AR-04)&#10;Request ID, requester, contact, reference, destination, summary; current status; the staff member who set it and the time; and the clarification history. Statuses used here: AWAITING CLARIFICATION, READY, IN DELIVERY, RECEIVED." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f5f5f5;strokeColor=#999999;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1030" width="760" height="150" as="geometry" /></mxCell>
+        <mxCell id="n2" value="ROLE-LIMITED INFORMATION (AR-05)&#10;The desk holds the requester's contact details. The runner view shows request ID, reference, destination and delivery status only, and omits contact details. The keeper sees the request and records acknowledgment." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1030" width="700" height="150" as="geometry" /></mxCell>
+        <mxCell id="n3" value="CORRECTION IS ADDITIVE, NOT A REPLACEMENT (AR-04)&#10;In E01 the original entry keeps reference CK-099 and a blank destination. The correction to CK-042 and East Records is added as a new entry in the clarification history with its own author and time, so a reviewer can see both the original issue and the corrected values." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1030" width="780" height="150" as="geometry" /></mxCell>
+        <mxCell id="n4" value="PROPOSAL ONLY&#10;This is a proposed route for review by Iona Venn and the Archive Council. It is not an approved or implemented service. No error rate, service time or cost saving is claimed, because no baseline was supplied (W09-S01, W09-S04)." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="1030" width="700" height="150" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+</mxfile>
