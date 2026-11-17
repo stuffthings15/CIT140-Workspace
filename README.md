@@ -1,17 +1,20 @@
 # CIT 140 — Systems Analyst Portfolio
 
-**Curtis Loop** · Introduction to Systems Analysis and Design · Weeks 1–8
+**Curtis Loop** · Introduction to Systems Analysis and Design · Weeks 1–9
 
 This repository holds the case investigations completed for CIT 140. Each week produced one artifact, stored in its own folder with any supporting evidence and the mission receipt for that week. Canvas holds the official submissions, dates and grades.
 
 ## Cases in this portfolio
 
-Two separate fictional cases run through the course. They are kept apart deliberately; findings from one do not carry to the other.
+Three separate fictional cases run through the course. They are kept apart deliberately; findings from one do not carry to another.
 
 | Case | Setting | Weeks |
 |---|---|---|
 | **Meridian Forge Robotics** | Robotics QA cell; a retired test running on MR-17 | 1, 2, 3, 7 |
 | **Cedar Junction** | Civic operations and clinic appointments | 4, 5, 6 |
+| **Orison Keep** | The Clockwork Archive; a request and delivery service | 9 |
+
+Weeks 1–7 investigate. Week 8 organizes the work for a client. From Week 9 the course turns to design.
 
 ## Portfolio index
 
@@ -69,6 +72,14 @@ Client-facing review of Weeks 1–7.
 - [Loop_Curtis_CIT140_Week08_Portfolio.pdf](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.pdf) — the packet, fourteen pages
 - [Loop_Curtis_CIT140_Week08_Portfolio.docx](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.docx) — editable copy
 - [Week08_Mission_Receipt.pdf](Week08_Your_Analyst_Portfolio/Receipt/Week08_Mission_Receipt.pdf) — receipt `CIT140-W08-707AF799D735E91E`
+
+### Week 9 — Future-State Design · Orison Keep
+Proposes a request service that checks a request before dispatch, and walks two scenarios through it. A proposal for review, not an approved or implemented service.
+- [Loop_Curtis_CIT140_Week09_Design_Packet.pdf](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design_Packet.pdf) — the client packet, eleven pages
+- [Loop_Curtis_CIT140_Week09_Design_Packet.docx](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design_Packet.docx) — editable copy
+- [Loop_Curtis_CIT140_Week09_Future_Process_Model.drawio](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Future_Process_Model.drawio) — editable design source
+- [Loop_Curtis_CIT140_Week09_Future_Process_Model.png](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Future_Process_Model.png) — full-size route diagram
+- Week09 receipt — pending
 
 ## Completeness and known limits
 
