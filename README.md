@@ -1,6 +1,6 @@
-# CIT 140 — Systems Analyst Portfolio
+﻿# CIT 140 â€” Systems Analyst Portfolio
 
-**Curtis Loop** · Introduction to Systems Analysis and Design · Weeks 1–9
+**Curtis Loop** Â· Introduction to Systems Analysis and Design Â· Weeks 1â€“9
 
 This repository holds the case investigations completed for CIT 140. Each week produced one artifact, stored in its own folder with any supporting evidence and the mission receipt for that week. Canvas holds the official submissions, dates and grades.
 
@@ -14,79 +14,79 @@ Three separate fictional cases run through the course. They are kept apart delib
 | **Cedar Junction** | Civic operations and clinic appointments | 4, 5, 6 |
 | **Orison Keep** | The Clockwork Archive; a request and delivery service | 9 |
 
-Weeks 1–7 investigate. Week 8 organizes the work for a client. From Week 9 the course turns to design.
+Weeks 1â€“7 investigate. Week 8 organizes the work for a client. From Week 9 the course turns to design.
 
 ## Portfolio index
 
-### Week 1 — Problem Brief · Meridian Forge
+### Week 1 â€” Problem Brief Â· Meridian Forge
 Defines the MR-17 incident without proposing a repair.
-- [CIT140-Week01-Problem-Brief.pdf](Week01_Something_Isnt_Adding_Up/artifact/CIT140-Week01-Problem-Brief.pdf) — the artifact
-- [CIT140-Week01-Meridian-Forge-Evidence-Packet.docx](Week01_Something_Isnt_Adding_Up/evidence/CIT140-Week01-Meridian-Forge-Evidence-Packet.docx) — supplied case evidence
-- [Week01_Mission_Receipt.pdf](Week01_Something_Isnt_Adding_Up/receipt/Week01_Mission_Receipt.pdf) — receipt `CIT140-W01-PROBLEM-MU5XI6GY-3RQRP`
+- [CIT140-Week01-Problem-Brief.pdf](Week01_Something_Isnt_Adding_Up/artifact/CIT140-Week01-Problem-Brief.pdf) â€” the artifact
+- [CIT140-Week01-Meridian-Forge-Evidence-Packet.docx](Week01_Something_Isnt_Adding_Up/evidence/CIT140-Week01-Meridian-Forge-Evidence-Packet.docx) â€” supplied case evidence
+- [Week01_Mission_Receipt.pdf](Week01_Something_Isnt_Adding_Up/receipt/Week01_Mission_Receipt.pdf) â€” receipt `CIT140-W01-PROBLEM-MU5XI6GY-3RQRP`
 
-### Week 2 — Business Case Recommendation · Meridian Forge
+### Week 2 â€” Business Case Recommendation Â· Meridian Forge
 Recommends revising the proposed QA Control Review rather than proceeding as written.
-- [CIT140-Week02-Business-Case.pdf](Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case.pdf) — the artifact
-- [CIT140-Week02-Business-Case-r017.json](Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case-r017.json) — structured export, revision 17
-- [Week02_Repository_Check.png](Week02_Is_This_Project_Worth_Doing/Week02_Repository_Check.png) — required repository screenshot
-- Receipt: `CIT140-W02-5E584F45EA26` — code recovered from the Canvas submission; **PDF not saved in this repository**
+- [CIT140-Week02-Business-Case.pdf](Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case.pdf) â€” the artifact
+- [CIT140-Week02-Business-Case-r017.json](Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case-r017.json) â€” structured export, revision 17
+- [Week02_Repository_Check.png](Week02_Is_This_Project_Worth_Doing/Week02_Repository_Check.png) â€” required repository screenshot
+- Receipt: `CIT140-W02-5E584F45EA26` â€” code recovered from the Canvas submission; **PDF not saved in this repository**
 - Version-specific artifact link submitted at the time: `https://github.com/stuffthings15/CIT140-Workspace/blob/123593122d6fde9fd24996e9735092d5e089c504/Week02_Is_This_Project_Worth_Doing/CIT140-Week02-Business-Case.pdf`
 
-### Week 3 — Stakeholder Map · Meridian Forge
+### Week 3 â€” Stakeholder Map Â· Meridian Forge
 Maps who is affected, who advises and who can decide, including unnamed roles.
-- [CIT140-Week03-Stakeholder-Map.pdf](Week03_Who_Has_A_Stake/CIT140-Week03-Stakeholder-Map.pdf) — the artifact
-- [Loop_Curtis_CIT140_Week03_Book_Form.pdf](Week03_Who_Has_A_Stake/Loop_Curtis_CIT140_Week03_Book_Form.pdf) — book form, *Attention First* page 72, prompts 32–33
-- Receipt: `CIT140-W03-DCE0D231D457` — code recovered from the Canvas submission; **PDF not saved in this repository**
+- [CIT140-Week03-Stakeholder-Map.pdf](Week03_Who_Has_A_Stake/CIT140-Week03-Stakeholder-Map.pdf) â€” the artifact
+- [Loop_Curtis_CIT140_Week03_Book_Form.pdf](Week03_Who_Has_A_Stake/Loop_Curtis_CIT140_Week03_Book_Form.pdf) â€” book form, *Attention First* page 72, prompts 32â€“33
+- Receipt: `CIT140-W03-DCE0D231D457` â€” code recovered from the Canvas submission; **PDF not saved in this repository**
 - Version-specific artifact link submitted at the time: `https://github.com/stuffthings15/CIT140-Workspace/blob/fda7df6d1e47c80b6070386b4b1f7f18fc81048a/Week03_Who_Has_A_Stake/CIT140-Week03-Stakeholder-Map.pdf`
 
-### Week 4 — Validated Requirements Set · Cedar Junction
+### Week 4 â€” Validated Requirements Set Â· Cedar Junction
 Eight validated requirements with sources, acceptance checks and named validators.
-- [CIT140-Week04-Validated-Requirements.pdf](Week04_What_Must_The_System_Do/CIT140-Week04-Validated-Requirements.pdf) — the artifact
-- Receipt: `CIT140-W04-143CCF33C549` — code recovered from the Canvas submission; **PDF not saved in this repository**
+- [CIT140-Week04-Validated-Requirements.pdf](Week04_What_Must_The_System_Do/CIT140-Week04-Validated-Requirements.pdf) â€” the artifact
+- Receipt: `CIT140-W04-143CCF33C549` â€” code recovered from the Canvas submission; **PDF not saved in this repository**
 - Link submitted at the time: `https://github.com/stuffthings15/CIT140-Workspace/tree/main/Week04_What_Must_The_System_Do` (folder on `main`, not a version-pinned file link)
 
-### Week 5 — As-Is Process Model · Cedar Junction
+### Week 5 â€” As-Is Process Model Â· Cedar Junction
 Swimlane model of the current clinic appointment process and where the handoff breaks.
-- [Loop_Curtis_CIT140_Week05_As_Is_Process_Model.pdf](Week05_How_Does_The_Work_Happen_Now/Artifact/Loop_Curtis_CIT140_Week05_As_Is_Process_Model.pdf) — the artifact
-- [Loop_Curtis_CIT140_Week05_As_Is_Process_Model.drawio](Week05_How_Does_The_Work_Happen_Now/Artifact/Loop_Curtis_CIT140_Week05_As_Is_Process_Model.drawio) — editable source
-- [CIT140-Week05-Process-Model.png](Week05_How_Does_The_Work_Happen_Now/Evidence/CIT140-Week05-Process-Model.png) — diagram image
-- [Week05_Discord_Post.png](Week05_How_Does_The_Work_Happen_Now/Evidence/Week05_Discord_Post.png) — sharing evidence
+- [Loop_Curtis_CIT140_Week05_As_Is_Process_Model.pdf](Week05_How_Does_The_Work_Happen_Now/Artifact/Loop_Curtis_CIT140_Week05_As_Is_Process_Model.pdf) â€” the artifact
+- [Loop_Curtis_CIT140_Week05_As_Is_Process_Model.drawio](Week05_How_Does_The_Work_Happen_Now/Artifact/Loop_Curtis_CIT140_Week05_As_Is_Process_Model.drawio) â€” editable source
+- [CIT140-Week05-Process-Model.png](Week05_How_Does_The_Work_Happen_Now/Evidence/CIT140-Week05-Process-Model.png) â€” diagram image
+- [Week05_Discord_Post.png](Week05_How_Does_The_Work_Happen_Now/Evidence/Week05_Discord_Post.png) â€” sharing evidence
 - [Week05_Mission_Receipt.pdf](Week05_How_Does_The_Work_Happen_Now/Receipt/Week05_Mission_Receipt.pdf)
 
-### Week 6 — Data-Flow Model · Cedar Junction
+### Week 6 â€” Data-Flow Model Â· Cedar Junction
 Context diagram, data movement and data definitions for the Inspection Report Routing System.
-- [Loop_Curtis_CIT140_Week06.pdf](Week06_Where_Does_The_Information_Go/Artifact/Loop_Curtis_CIT140_Week06.pdf) — the artifact, three pages
-- [Loop_Curtis_CIT140_Week06.drawio](Week06_Where_Does_The_Information_Go/Artifact/Loop_Curtis_CIT140_Week06.drawio) — editable source
-- [Loop_Curtis_CIT140_Week06_Page1_Context.png](Week06_Where_Does_The_Information_Go/Artifact/Loop_Curtis_CIT140_Week06_Page1_Context.png) — context diagram image
+- [Loop_Curtis_CIT140_Week06.pdf](Week06_Where_Does_The_Information_Go/Artifact/Loop_Curtis_CIT140_Week06.pdf) â€” the artifact, three pages
+- [Loop_Curtis_CIT140_Week06.drawio](Week06_Where_Does_The_Information_Go/Artifact/Loop_Curtis_CIT140_Week06.drawio) â€” editable source
+- [Loop_Curtis_CIT140_Week06_Page1_Context.png](Week06_Where_Does_The_Information_Go/Artifact/Loop_Curtis_CIT140_Week06_Page1_Context.png) â€” context diagram image
 - [Week06_Mission_Receipt.pdf](Week06_Where_Does_The_Information_Go/Receipt/Week06_Mission_Receipt.pdf)
 
-### Week 7 — Data-Quality Report · Meridian Forge
+### Week 7 â€” Data-Quality Report Â· Meridian Forge
 Five data-quality rules applied to 20 inspection records, prepared in Power Query.
-- [Loop_Curtis_CIT140_Week07.pdf](Week07_Can_We_Trust_The_Data/Artifact/Loop_Curtis_CIT140_Week07.pdf) — the report, two pages
-- [Loop_Curtis_CIT140_Week07.xlsx](Week07_Can_We_Trust_The_Data/Artifact/Loop_Curtis_CIT140_Week07.xlsx) — workbook with Raw, Prepared, Audit and the saved query
-- [Loop_Curtis_CIT140_Week07_AppliedSteps.png](Week07_Can_We_Trust_The_Data/Artifact/Loop_Curtis_CIT140_Week07_AppliedSteps.png) — Power Query Applied Steps
+- [Loop_Curtis_CIT140_Week07.pdf](Week07_Can_We_Trust_The_Data/Artifact/Loop_Curtis_CIT140_Week07.pdf) â€” the report, two pages
+- [Loop_Curtis_CIT140_Week07.xlsx](Week07_Can_We_Trust_The_Data/Artifact/Loop_Curtis_CIT140_Week07.xlsx) â€” workbook with Raw, Prepared, Audit and the saved query
+- [Loop_Curtis_CIT140_Week07_AppliedSteps.png](Week07_Can_We_Trust_The_Data/Artifact/Loop_Curtis_CIT140_Week07_AppliedSteps.png) â€” Power Query Applied Steps
 - [Week07_Mission_Receipt.pdf](Week07_Can_We_Trust_The_Data/Receipt/Week07_Mission_Receipt.pdf)
 
-### Week 8 — Portfolio Review Packet
-Client-facing review of Weeks 1–7.
-- [Loop_Curtis_CIT140_Week08_Portfolio.pdf](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.pdf) — the packet, fourteen pages
-- [Loop_Curtis_CIT140_Week08_Portfolio.docx](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.docx) — editable copy
-- [Week08_Mission_Receipt.pdf](Week08_Your_Analyst_Portfolio/Receipt/Week08_Mission_Receipt.pdf) — receipt `CIT140-W08-707AF799D735E91E`
+### Week 8 â€” Portfolio Review Packet
+Client-facing review of Weeks 1â€“7.
+- [Loop_Curtis_CIT140_Week08_Portfolio.pdf](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.pdf) â€” the packet, fourteen pages
+- [Loop_Curtis_CIT140_Week08_Portfolio.docx](Week08_Your_Analyst_Portfolio/Artifact/Loop_Curtis_CIT140_Week08_Portfolio.docx) â€” editable copy
+- [Week08_Mission_Receipt.pdf](Week08_Your_Analyst_Portfolio/Receipt/Week08_Mission_Receipt.pdf) â€” receipt `CIT140-W08-707AF799D735E91E`
 
-### Week 9 — Future-State Design · Orison Keep
+### Week 9 â€” Future-State Design Â· Orison Keep
 Proposes a request service that checks a request before dispatch, and walks two scenarios through it. A proposal for review, not an approved or implemented service.
-- [Loop_Curtis_CIT140_Week09_Design_Packet.pdf](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design_Packet.pdf) — the client packet, eleven pages
-- [Loop_Curtis_CIT140_Week09_Design_Packet.docx](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design_Packet.docx) — editable copy
-- [Loop_Curtis_CIT140_Week09_Future_Process_Model.drawio](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Future_Process_Model.drawio) — editable design source
-- [Loop_Curtis_CIT140_Week09_Future_Process_Model.png](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Future_Process_Model.png) — full-size route diagram
-- Week09 receipt — pending
+- [Loop_Curtis_CIT140_Week09_Design.pdf](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design.pdf) â€” the client packet, eleven pages
+- [Loop_Curtis_CIT140_Week09_Design.docx](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design.docx) â€” editable copy
+- [Loop_Curtis_CIT140_Week09_Design.drawio](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design.drawio) â€” editable design source
+- [Loop_Curtis_CIT140_Week09_Design.png](Week09_What_Should_The_Better_System_Look_Like/Artifact/Loop_Curtis_CIT140_Week09_Design.png) â€” full-size route diagram
+- Week09 receipt â€” pending
 
 ## Completeness and known limits
 
 Every artifact each assignment required is present in this repository. The notes below explain two differences a reader will notice between the earlier and later weeks.
 
 - **Where the mission receipts live changed mid-course.** For Weeks 2, 3 and 4 the assignment directed the receipt to Canvas, not to the repository: each of those weeks asked for the artifact files to be committed and for the report link and receipt to be submitted in Canvas. From Week 5 onward the requirement changed, and the receipt PDF is stored here alongside the artifact. The Week 2, 3 and 4 receipt codes are recorded in their sections above for completeness, taken from the original Canvas submissions. No receipt has been reconstructed or recreated.
-- **Folder structure is not uniform.** Weeks 1–4 use the folder layout each assignment specified at the time; Weeks 5–8 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas, and renaming them would break those links.
+- **Folder structure is not uniform.** Weeks 1â€“4 use the folder layout each assignment specified at the time; Weeks 5â€“8 use `Artifact/`, `Evidence/` and `Receipt/`. Earlier folders are left unchanged because their file links were already submitted in Canvas, and renaming them would break those links.
 
 Two open items are worth stating plainly. Week 4 has no structured JSON export in the repository, because only the PDF artifact was required at submission. The Week 4 link submitted in Canvas was a folder link on `main` rather than a version-pinned file link, which that week's instructions asked for.
 
